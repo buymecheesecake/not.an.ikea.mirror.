@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Mirror Mirror",
+  "description": "Flips all text on the page as if viewed in a mirror.",
+  "version": "1.0",
+  "permissions": ["scripting", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Mirror Mirror"
+  }
+}
